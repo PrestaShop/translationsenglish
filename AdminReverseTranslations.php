@@ -919,17 +919,24 @@ class AdminReverseTranslations extends AdminTab
 			$front_controller_dir = DIRECTORY_SEPARATOR.'controllers';
 		else
 			$front_controller_dir = DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR.'front';
+		
+		$this->files_front = array();
+		
+		$dir_to_scan = array(
 
-		// Get all files php in directory "themes/"
-		if (file_exists(_PS_ROOT_DIR_.DIRECTORY_SEPARATOR.'themes'.DIRECTORY_SEPARATOR.$this->name_theme))
-			$this->files_front = $this->myscandir(_PS_ROOT_DIR_, 'php', DIRECTORY_SEPARATOR.'themes'.DIRECTORY_SEPARATOR.$this->name_theme);
+			DIRECTORY_SEPARATOR.'themes'.DIRECTORY_SEPARATOR.$this->name_theme,
 
-		// Get all files tpl in directory "themes/"
-		if (file_exists(_PS_ROOT_DIR_.DIRECTORY_SEPARATOR.'themes'.DIRECTORY_SEPARATOR.$this->name_theme))
-			$this->files_front = array_merge(
-				$this->files_front,
-				$this->myscandir(_PS_ROOT_DIR_, 'tpl', DIRECTORY_SEPARATOR.'themes'.DIRECTORY_SEPARATOR.$this->name_theme)
+			DIRECTORY_SEPARATOR.'themes'.DIRECTORY_SEPARATOR.$this->name_theme.'/mobile'
+
 			);
+		$ext_to_check = array('tpl', 'php');
+		
+		foreach($dir_to_scan as $dir)
+
+			if (file_exists(_PS_ROOT_DIR_.$dir))
+
+				foreach($ext_to_check as $ext)
+					$this->files_front = array_merge($this->files_front, $this->myscandir(_PS_ROOT_DIR_, $ext, $dir));			
 
 		// Get all controller files php in directory "controller/front/"
 		if (file_exists(_PS_ROOT_DIR_.$front_controller_dir))
@@ -1124,3 +1131,4 @@ class AdminReverseTranslations extends AdminTab
 		return $list;
 	}
 }
+
