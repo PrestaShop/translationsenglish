@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_34883d58262915111b8513eaf65d2b75'] = 'Fichiers du front office';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_167a9d73f9e3704521e1295d18fc1025'] = 'Fichier du back office';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_ecd2989e12c44a5c60172406a8b920a2'] = 'Fichiers des modules';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_a4e48b16db05c1ce78cde4609f94be2d'] = 'Fichiers PDF';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_54d3e5d3fadc540446bbedc4d3e415a2'] = 'Fichiers d\'erreurs';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_b3c7979f0ab643107363ee518842d07e'] = 'PrestaShop traduction de l\'anglais';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_2463baf2fa4d03bf7bbd650ab27fdbe7'] = 'Chercher toutes les traductions qui sont en anglais et changer la clé de traduction dans tous les fichiers de traductions.';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_082c108b51f0eccac51b67830cc8a706'] = 'Selectionnez un type de fichier :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_51a6df28a8b0308be6f7078f9dc9c7ed'] = 'Modifier les clés de traduction ici';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_a5fe536efa649fa27559e935975bbcae'] = 'Obtenir tous les fichiers qui ont été traduit :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_b412fd807d1a975fab3b1258333a6041'] = 'Obtenir la liste des fichiers traduit en anglais :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_d420ef895bfc05883c181c45eeb374fb'] = 'Trouver tous les fichiers qui sont nouveau en anglais :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_8cec4312863856e8eca0ef7eab75839a'] = 'Aucune traduction pour ce type :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_37d5c3371716db07c629bc9b44a17a22'] = 'Nombre d\'erreur :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_c1f63afb1a851029c612f2813e0a1d4b'] = 'Nombre de succès :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_f0fbfdcff75ed846c2869f3778bd12b5'] = 'Cette clé a été modifié %1$s par %2$s dans ce fichier : %3$s';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_a702a035204901c927bfbffae642bcb4'] = 'Cette clé n\'a pas été modifié %1$s par %2$s dans ce fichier : %3$s (%4$d)';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_626693dc9a7dd023570e2e870f392935'] = 'La réinitialisation n\'est pas possible pour ce fichier :';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_d134844c3e6ac64798286eb026630842'] = 'La chaine %1$s a été remplacé par %2$s dans ce fichier : %3$s';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_e0d523cdfbdcb39a6862d672afcf64f0'] = 'La chaine %1$s n\'a pas été remplacé par %2$s dans ce fichier : %3$s (%4$d)';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_c1081b588429c7f7c02f521e6df02a6c'] = 'Cette chaine n\'a pas été trouvé : %1$s dans ce fichier : %2$s';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_a3dd5bdb47af77e08ca8864d2bc081a2'] = 'Ce fichier existe : %s';
+$_MODULE['<{translationsenglish}prestashop>adminreversetranslations_aee2b605e1b6ea0a4a19484b87196608'] = 'Cette propriété \"%1$s\" n\'existe pas dans ce fichier : %2$s';
+$_MODULE['<{translationsenglish}prestashop>translationsenglish_b3c7979f0ab643107363ee518842d07e'] = 'Traduction de PrestaShop en anglais';
+$_MODULE['<{translationsenglish}prestashop>translationsenglish_2463baf2fa4d03bf7bbd650ab27fdbe7'] = 'Cherche toutes les traductions qui sont en anglais et change la clé anglaise dans les autre fichiers';
+$_MODULE['<{translationsenglish}prestashop>translationsenglish_4832601fdfcd55070bd7001c9a69fb34'] = 'Le nouvelle onglet \"AdminReverseTranslations\" ne peut pas être créer.';

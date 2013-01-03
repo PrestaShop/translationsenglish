@@ -1,0 +1,11 @@
+/* Css for Forms */
+form#formTranslation p{line-height:8px}
+form#formTranslation p label{float:none;margin-left:10px;}
+#SumitChangeTranslationKey {cursor:pointer; border:1px solid #ccc;background:#fff;padding:5px;width:200px;text-align:center;}
+
+/* Css for details of results */
+#details {width:90%;height:500px;border:1px solid #ccc;margin:20px auto;font-size:14px;overflow:auto;background:#fff;}
+#details ul li{list-style-type:disc;margin-left: 30px;padding: 5px;}
+#details ul li.success{color:green;}
+#details ul li.errors{color:red;}
+#details ul li span{font-style:italic;font-weight: bold;}
